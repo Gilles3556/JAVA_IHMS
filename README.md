@@ -7,7 +7,8 @@ Une petite bibliothèque (JAR) permettant de mettre rapidement en place trois ty
 
 ![DCLA](./DCLA_IHM.png)
 ## Utilisation de la bibliothèque: 
-`
+
+```java
 public class Lanceur {
 
 public static void testerIhm(Ihm vue,List<String> liste,String[] invite) throws Exception{
