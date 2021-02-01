@@ -66,10 +66,3 @@ public static void main(String[] args) {
 }
 
 `
-
-## IHM: dans la console
-
-## IHM: avec un JPanel
-
-## IHM: du Swing
-
