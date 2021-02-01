@@ -60,7 +60,9 @@ public class Lanceur {
 			e.printStackTrace();
 		}
 	}
-}`
+}
+
+`
 
 ## IHM: dans la console
 
