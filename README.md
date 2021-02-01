@@ -7,26 +7,7 @@ Une petite bibliothèque (JAR) permettant de mettre rapidement en place trois ty
 
 ![DCLA](./DCLA_IHM.png)
 ## Utilisation de la bibliothèque: 
-`package start;
-
-import java.awt.Dimension;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-
-
-import ihm.Ihm;
-import ihm.IhmUtils;
-import ihm.basic.IhmConsole;
-import ihm.basic.IhmPanel;
-import ihm.swing.IhmFenetreSwing;
-/**
- * Classe de démonstration des différentes utilisation.
- * <p><img src="../doc-files/DCLA_IHM.png" alt="Diag des classes" ></p>
- * @author pnd
- *
- */
+`
 public class Lanceur {
     /**
      * Méthode chargér de tester chacunes des IHM sans se soucier du type.
