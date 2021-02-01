@@ -10,9 +10,9 @@ Une petite bibliothèque (JAR) permettant de mettre rapidement en place trois ty
 `
 public class Lanceur {
     /**
-     * Méthode chargér de tester chacunes des IHM sans se soucier du type.
+     * Méthode chargée de tester chacunes des IHM sans se soucier du type.
      * @param vue: Ihm
-     * @param liste: List&gt;String&lt;, les choix de menu
+     * @param liste: List<String>, les choix de menu
      * @param invite: String[], les champs à saisir
      * @throws Exception erreur
      */
@@ -39,17 +39,14 @@ public class Lanceur {
 		vue.afficherEnTableau("Les saisies", entetes, null, tablo);	
 	}
 	
-	
 	// ---------------------------------------------------------------PGM de démo
 	public static void main(String[] args) {
-	
 		List<String> liste= new ArrayList<>();
 		liste.add("Consulter un TS");
 		liste.add("Saisir un TS");
 		liste.add("lister TS du mois");
 	
 		String[] tablo= {"grade","nom","prenom","age"};
-		
 		try {
 			//CONSOLE:
 			//testerIhm( new IhmConsole(),liste,tablo);
@@ -59,16 +56,10 @@ public class Lanceur {
 			
 			//SWING
 			testerIhm( new IhmFenetreSwing("Titre fen", new Dimension(500,500)),liste,tablo);
-			
-			
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-
 	}
-
 }`
 
 ## IHM: dans la console
