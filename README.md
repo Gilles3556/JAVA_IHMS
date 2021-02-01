@@ -9,6 +9,13 @@ Une petite bibliothèque (JAR) permettant de mettre rapidement en place trois ty
 ## Utilisation de la bibliothèque: 
 
 ```java
+/**
+     * Méthode chargér de tester chacunes des IHM sans se soucier du type.
+     * @param vue: Ihm
+     * @param liste: List<String>, les choix de menu
+     * @param invite: String[], les champs à saisir
+     * @throws Exception erreur
+     */
 public class Lanceur {
 
 public static void testerIhm(Ihm vue,List<String> liste,String[] invite) throws Exception{
