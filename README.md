@@ -5,4 +5,4 @@ Une petite bibliothèque au format JAR permettant de mettre rapidement en place 
 - un IhmPanel: saisie et affichage avec des JPanel;
 - un IhmSwing: saisie et affichage dans une fen^tre de type SWING.
 
-[DCLA](./DCLA_ihms.png)
+![DCLA](./DCLA_IHM.png)
