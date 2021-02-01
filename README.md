@@ -9,6 +9,9 @@ Une petite bibliothèque (JAR) permettant de mettre rapidement en place trois ty
 ## Utilisation de la bibliothèque: 
 Une classe Lanceur permettant de tester les trois IHM possibles.
 ```java
+
+public class Lanceur {
+
 /**
 * Méthode chargée de tester chacunes des IHM sans se soucier du type.
 * @param vue: Ihm
@@ -16,8 +19,6 @@ Une classe Lanceur permettant de tester les trois IHM possibles.
 * @param invite: String[], les champs à saisir
 * @throws Exception erreur
 */
-public class Lanceur {
-
 public static void testerIhm(Ihm vue,List<String> liste,String[] invite) throws Exception{
 	//Afficher
 	vue.afficherChaine("Coucou", true);
