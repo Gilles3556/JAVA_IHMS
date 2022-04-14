@@ -3,7 +3,7 @@
 Une petite bibliothèque (JAR) permettant de mettre rapidement en place trois type d'IHM:
 - un IhmConsole: saisie et affichage dans la console;
 - un IhmPanel: saisie et affichage avec des JPanel;
-- un IhmSwing: saisie et affichage dans une fen^tre de type SWING.
+- un IhmSwing: saisie et affichage dans une fenêtre de type SWING.
 
 ![DCLA](./DCLA_IHM.png)
 ## Utilisation de la bibliothèque: 
